@@ -1141,3 +1141,17 @@ ul.link_menu li a:hover {
 .in_page .header {
      border-bottom: #1cb1d1 solid 2px;
 }
+
+/* Estilo para el botón flotante */
+.boton-flotante {
+     position: fixed;
+     /* Esto hace que el botón sea flotante */
+     bottom: 30px;
+     /* Distancia desde la parte inferior de la página */
+     right: 20px;
+     /* Distancia desde la parte derecha de la página */
+     z-index: 100;
+     /* Esto asegura que el botón esté por encima de otros elementos */
+     width: 60px;
+     height: auto;
+}
