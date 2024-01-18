@@ -309,15 +309,52 @@ button {
 .banner {
      position: relative;
      background: url(../images/banner-gescon1.JPEG);
-     background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
-     min-height: 604px;
-     padding-top: 17%;
+     height: 750px;
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+     .banner {
+          position: relative;
+               background: url(../images/banner-gescon1.JPEG);
+               background-position: center;
+               background-repeat: no-repeat;
+               height: 750px;
+     }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 576px) {
+     .banner {
+          position: relative;
+               background: url(../images/banner-gescon1.JPEG);
+               background-position: center;
+               background-repeat: no-repeat;
+               height: 750px;
+     }
 }
 
 .text-bg {
      text-align: left;
+     margin-top: 100px;
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+     .text-bg {
+          margin-top: 0px;
+          height: 400px;
+     }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 576px) {
+     .text-bg {
+          margin-top: 0px;
+          height: 400px;
+     }
 }
 
 .relative {
@@ -345,12 +382,34 @@ button {
 }
 
 .text-bg span {
-     line-height: 25px;
+     margin-top: 20px;
+     line-height: 35px;
      padding-bottom: 40px;
      color: #fff;
-     font-size: 17px;
-     font-weight: bold;
+     font-size: 27px;
      display: block;
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+     .text-bg span {
+          line-height: 25px;
+          padding-bottom: 40px;
+          color: #fff;
+          font-size: 17px;
+          display: block;
+     }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 576px) {
+     .text-bg span {
+          line-height: 25px;
+          padding-bottom: 0px;
+          color: #fff;
+          font-size: 17px;
+          display: block;
+     }
 }
 
 .text-bg .read_more {
@@ -435,6 +494,10 @@ button {
      padding: 0;
 }
 
+.dark {
+     color: #201e53 !important;
+}
+
 .green {
      color: #1cb1d1 !important;
 }
@@ -473,12 +536,12 @@ button {
 
 .about {
      background-color: #fff;
-     padding-top: 95px;
+     padding-top: 5px;
 }
 
 .about .titlepage {
      text-align: left;
-     margin-top: 41%;
+     margin-top: 11%;
      padding-bottom: 0;
      margin-right: -20px;
 }
