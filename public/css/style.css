@@ -312,7 +312,7 @@ button {
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
-     min-height: 804px;
+     min-height: 604px;
      padding-top: 17%;
 }
 
@@ -331,6 +331,14 @@ button {
 .text-bg h1 {
      color: #fff;
      font-size: 85px;
+     line-height: 96px;
+     padding-bottom: 0px;
+     font-weight: bold;
+}
+
+.text-bg h2 {
+     color: #fff;
+     font-size: 55px;
      line-height: 96px;
      padding-bottom: 0px;
      font-weight: bold;
@@ -520,6 +528,7 @@ button {
 
 .service {
      padding-top: 80px;
+     margin-bottom: 30px;
 }
 
 .service_box h3 {
@@ -531,11 +540,12 @@ button {
 }
 
 .mar_top {
-     margin-top: -35px;
+     margin-top: 10px;
 }
 
 .service_box p {
      color: #201e53;
+     margin-bottom: 10px;
 }
 
 .service .read_more {
@@ -619,15 +629,21 @@ button {
      padding-top: 80px;
 }
 
+.text_de h2 {
+     color: #1cb1d1;
+} 
+
 .text_de p {
+     font-weight: 300;
      color: #201e53;
-     padding-bottom: 50px;
      font-size: 17px;
      line-height: 31px;
+     padding-bottom: 35px;
+     text-align: left;
 }
 
 .banner_design {
-     max-width: 443px;
+     
      float: right;
      width: 100%;
 }
@@ -653,6 +669,38 @@ button {
      font-size: 35px;
      color: #fff;
      top: 97%;
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+
+     #design .carousel-control-prev,
+     #design .carousel-control-next {
+               width: 83px;
+               height: 0px;
+               margin-top: 180px;
+               background: #201e53;
+               opacity: 1;
+               font-size: 35px;
+               color: #fff;
+               top: 97%;
+     }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 576px) {
+
+     #design .carousel-control-prev,
+     #design .carousel-control-next {
+               width: 83px;
+               height: 76px;
+               margin-top: 180px;
+               background: #201e53;
+               opacity: 1;
+               font-size: 35px;
+               color: #fff;
+               top: 97%;
+}
 }
 
 #design .carousel-control-prev:hover,
@@ -1155,3 +1203,131 @@ ul.link_menu li a:hover {
      width: 60px;
      height: auto;
 }
+
+/** blog  section **/
+
+.blog {
+     margin-top: 10px;
+     padding-top: 80px;
+     background-color: #fff;
+     padding-bottom: 50px;
+}
+
+.blog .titlepage {
+     text-align: center;
+     color: #1cb1d1;
+     margin-bottom: 10px;
+}
+
+.blog .titlepage p {
+     color: #fff;
+     display: block;
+}
+
+.blog .blog_img {
+     overflow: hidden;
+     margin-bottom: 30px;
+}
+
+.blog .blog_img figure {
+     margin: 0;
+}
+
+.blog .blog_img figure img {
+     width: 100%;
+     transition: all .5s;
+}
+
+.blog .blog_img figure img:hover {
+     transform: scale(1.2);
+     cursor: pointer;
+}
+
+.blog_text {
+     text-align: center;
+     background-color: #1cb1d1;
+     height: 269px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.blogh3 h3 {
+     font-size: 24px;
+     line-height: 30px;
+     color: #fff;
+     font-weight: bold;
+}
+
+.blogh3 p {
+     font-size: 17px;
+     line-height: 31px;
+     color: #fff;
+     margin-left: 10px;
+}
+
+.blogh3 .read_more {
+     background-color: #fff;
+     color: #1cb1d1;
+}
+
+.blogh3 .read_more:hover {
+     background-color: #1cb1d1;
+     color: #fff;
+}
+
+
+/** end blog  section **/
+
+/** tips  section **/
+
+.tips {
+     margin-top: 10px;
+     padding-top: 80px;
+     background-color: #fff;
+     padding-bottom: 50px;
+}
+
+.tips .titlepage {
+     text-align: center;
+     color: #1cb1d1;
+     margin-bottom: 10px;
+}
+
+.tips .titlepage h2 {
+     text-align: center;
+     color: #201e53;
+     margin-bottom: 10px;
+}
+
+.tips .titlepage p {
+     color: #201e53;
+     display: block;
+}
+
+.tips_text {
+     text-align: center;
+     background-color: #fff;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.tipsh3 h3 {
+     font-size: 24px;
+     line-height: 30px;
+     color: #1cb1d1;
+     font-weight: bold;
+}
+
+.tipsh3 p {
+     font-size: 15px;
+     line-height: 31px;
+     color: #201e53;
+     text-align: left;
+}
+
+
+/** end tips  section **/
