@@ -546,6 +546,12 @@ button {
      font-weight: bold;
 }
 
+.service_box img {
+     width: 120px;
+     height: 120px;
+
+}
+
 .mar_top {
      margin-top: 10px;
 }
