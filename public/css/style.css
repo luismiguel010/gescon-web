@@ -308,53 +308,28 @@ button {
 
 .banner {
      position: relative;
-     background: url(../images/banner-gescon1.JPEG);
+     background: url(../images/wallpapper.JPEG);
+     background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
-     height: 750px;
+     min-height: 804px;
+     padding-top: 17%;
 }
 
-/* Estilos para pantallas medianas */
 @media (max-width: 768px) {
      .banner {
-          position: relative;
-               background: url(../images/banner-gescon1.JPEG);
-               background-position: center;
-               background-repeat: no-repeat;
-               height: 750px;
+          background: url(../images/walpapper-movil.jpeg);
      }
 }
 
-/* Estilos para pantallas pequeñas */
 @media (max-width: 576px) {
      .banner {
-          position: relative;
-               background: url(../images/banner-gescon1.JPEG);
-               background-position: center;
-               background-repeat: no-repeat;
-               height: 750px;
+          background: url(../images/walpapper-movil.jpeg);
      }
 }
 
 .text-bg {
      text-align: left;
-     margin-top: 100px;
-}
-
-/* Estilos para pantallas medianas */
-@media (max-width: 768px) {
-     .text-bg {
-          margin-top: 0px;
-          height: 400px;
-     }
-}
-
-/* Estilos para pantallas pequeñas */
-@media (max-width: 576px) {
-     .text-bg {
-          margin-top: 0px;
-          height: 400px;
-     }
 }
 
 .relative {
@@ -373,43 +348,12 @@ button {
      font-weight: bold;
 }
 
-.text-bg h2 {
-     color: #fff;
-     font-size: 55px;
-     line-height: 96px;
-     padding-bottom: 0px;
-     font-weight: bold;
-}
-
 .text-bg span {
-     margin-top: 20px;
-     line-height: 35px;
+     line-height: 25px;
      padding-bottom: 40px;
      color: #fff;
      font-size: 27px;
      display: block;
-}
-
-/* Estilos para pantallas medianas */
-@media (max-width: 768px) {
-     .text-bg span {
-          line-height: 25px;
-          padding-bottom: 40px;
-          color: #fff;
-          font-size: 17px;
-          display: block;
-     }
-}
-
-/* Estilos para pantallas pequeñas */
-@media (max-width: 576px) {
-     .text-bg span {
-          line-height: 25px;
-          padding-bottom: 0px;
-          color: #fff;
-          font-size: 17px;
-          display: block;
-     }
 }
 
 .text-bg .read_more {
@@ -417,14 +361,14 @@ button {
      height: 66px;
      padding: 17px 0;
      background-color: #fff;
-     color: #201e53;
+     color: #1cb1d1;
      text-transform: uppercase;
      font-weight: bold;
      border-radius: 50px;
 }
 
 .text-bg .read_more:hover {
-     background-color: #201e53;
+     background-color: #1cb1d1;
 }
 
 .banner .carousel-indicators {
@@ -447,7 +391,7 @@ button {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-     background: #1cb1d1;
+     background: #201e53;
      color: #fff;
      width: 57px;
      height: 57px;
@@ -644,6 +588,7 @@ button {
 .gallery .gallery_img {
      overflow: hidden;
      margin-bottom: 30px;
+     margin-top: 30px;
 }
 
 .gallery .gallery_img figure {
@@ -651,7 +596,10 @@ button {
 }
 
 .gallery .gallery_img figure img {
-     width: 100%;
+     width: 400px;
+     height: 300px;
+     position: center;
+     object-fit: cover;
      transition: all .5s;
 }
 
@@ -947,6 +895,8 @@ button {
 
 .text_humai i img {
      margin-top: -60px;
+     height: 120px;
+     width: 120px;
 }
 
 .text_humai p {
